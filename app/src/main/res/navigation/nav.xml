@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/homeFragment">
+
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.sn.home_container.HomeVPFragment"
+        android:label="HomeFragment" >
+<!--        <action-->
+<!--            android:id="@+id/action_a_fragment_to_b_fragment"-->
+<!--            app:destination="@id/b_fragment"-->
+<!--            app:enterAnim="@anim/slide_in_left"-->
+<!--            app:exitAnim="@anim/slide_in_left"-->
+<!--            app:popEnterAnim="@anim/fade_in"-->
+<!--            app:popExitAnim="@anim/fade_in" />-->
+    </fragment>
+    <fragment
+        android:id="@+id/scanFragment"
+        android:name="com.example.sn.scan.ScanFragment"
+        android:label="scanFragment" >
+    </fragment>
+</navigation>
